@@ -25,5 +25,5 @@ basic() {
 
   assert(!list.every((val) => (val == 'a')));
 
-  assert(list.where((val) => val == 'a').toList().length == 1);
+  assert(list.where((val) => (val == 'a')).toList().length == 1);
 }
