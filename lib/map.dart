@@ -1,5 +1,6 @@
 void main() {
   basic();
+  practicalMethods();
 }
 
 basic() {
@@ -32,3 +33,4 @@ practicalMethods() {
   map1.putIfAbsent('sth', () => 'haha');
   assert(map1.containsKey('sth'));
 }
+
