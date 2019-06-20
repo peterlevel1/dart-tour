@@ -40,7 +40,7 @@ specificTypes() {
 
   assert(fruits.length == 1);
 
-  // ! error
+  // ! static analysis: error
   // try {
   //   fruits.add(1);
   // } catch (e) {
